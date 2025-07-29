@@ -19,6 +19,8 @@
 #logo-container {
     display: flex;
     flex-direction: column;
+    /* make it slightly transparent */
+    /* give it a black colour */
 }
 
 .logo {
