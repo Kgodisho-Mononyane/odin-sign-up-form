@@ -1,3 +1,4 @@
+/* UNIVERSAL STYLING */
 @font-face {
     font-family: "norse-bold";
     src: 
@@ -11,6 +12,9 @@
     padding: 0;
 }
 
+
+
+/* LEFT STYLING */
 #left-container {
     width: 33%;
     background-image: url(img/foliage.jpg);
@@ -27,3 +31,7 @@
     font-family: norse-bold;
     color: white;
 }
+
+
+
+/* RIGHT STYLING */
