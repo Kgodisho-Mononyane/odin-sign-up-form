@@ -12,6 +12,10 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+}
+
 
 
 /* LEFT STYLING */
