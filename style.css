@@ -81,6 +81,12 @@ input {
     width: 50px;
 }
 
+/*LINKS AND BUTTONS*/
+.credit-link {
+    color: white;
+
+}
+
 .submit-btn {
     color: var(--white-color, white);
     background-color: var(--green-color, green);
@@ -97,16 +103,15 @@ input {
     background-color: var(--green-focus);
 }
 
-.login-text {
-}
-
 .login-link {
     color: var(--green-color, green);
     text-decoration: none;
 }
-.login-link:hover {
+.login-link:hover,
+.credit-link:hover {
     color: var(--green-hover);
 }
-.login-link:focus {
+.login-link:focus,
+.credit-link:focus {
     color: var(--green-focus);
 }
