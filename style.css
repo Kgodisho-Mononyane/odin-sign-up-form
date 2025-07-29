@@ -15,3 +15,8 @@
     width: 33%;
     background-image: url(img/foliage.jpg);
 }
+
+.logo {
+    font-family: norse-bold;
+    color: white;
+}
