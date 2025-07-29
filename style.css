@@ -12,8 +12,10 @@
     padding: 0;
     --green-color: #596D48;
     --green-hover:#87a56d;
+    --green-focus: #aed38e;;
     --white-color: #FFFFFF;
     --light-bg-color: #F9FAFB;
+    font-family: sans-serif;
 }
 
 body {
@@ -75,9 +77,17 @@ input {
 .submit-btn {
     color: var(--white-color, white);
     background-color: var(--green-color, green);
+    border: none;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 15px;
+}
+.submit-btn:hover {
+    background-color: var(--green-hover);
+}
+
+.submit-btn:focus {
+    background-color: var(--green-focus);
 }
 
 .login-text {
@@ -87,4 +97,9 @@ input {
     color: var(--green-color, green);
     text-decoration: none;
 }
-
+.login-link:hover {
+    color: var(--green-hover);
+}
+.login-link:focus {
+    color: var(--green-focus);
+}
