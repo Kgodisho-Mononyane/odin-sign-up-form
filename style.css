@@ -61,4 +61,11 @@ form {
     margin-bottom: 15px;
 }
 
+.login-text {
+}
+
+.login-link {
+    color: var(--green-color, green);
+    text-decoration: none;
+}
 
