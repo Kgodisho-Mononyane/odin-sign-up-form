@@ -5,3 +5,8 @@
         url(fonts/norse-bold-webfont.woff) format(woff);
      
 }
+
+#left-container {
+    width: 33%;
+    background-image: url(img/foliage.jpg);
+}
