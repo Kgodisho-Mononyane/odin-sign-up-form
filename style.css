@@ -1,12 +1,4 @@
 /* UNIVERSAL STYLING */
-@font-face {
-    font-family: "norse-bold";
-    src: 
-        url(fonts/norse-bold-webfont.woff2) format(woff2),
-        url(fonts/norse-bold-webfont.woff) format(woff);
-     
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -20,9 +12,16 @@
 
 body {
     display: flex;
+    height: 100%;
 }
 
-
+@font-face {
+    font-family: "norse-bold";
+    src: 
+        url(fonts/norse-bold-webfont.woff2) format(woff2),
+        url(fonts/norse-bold-webfont.woff) format(woff);
+     
+}
 
 /* LEFT STYLING */
 #left-container {
@@ -43,6 +42,10 @@ body {
     color: var(--white-color, white);
 }
 
+.credit {
+    margin-bottom: 0;
+}
+
 
 
 /* RIGHT STYLING */
@@ -51,10 +54,12 @@ body {
 
 .text-container {
     background-color: var(--light-bg-color);
+    height: 33%;
 }
 
 form {
     background-color: var(--white-color);
+    height: 33%;
 }
 
 .form-element-container {
@@ -68,6 +73,7 @@ form {
 
 .submit-container {
     background-color: var(--light-bg-color);
+    height: 33%;
 }
 
 input {
