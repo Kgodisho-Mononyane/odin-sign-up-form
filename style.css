@@ -10,6 +10,8 @@
 * {
     margin: 0;
     padding: 0;
+    --green-color: #596D48;
+    --white-color: rgb(255, 255, 255);
 }
 
 body {
@@ -33,7 +35,7 @@ body {
 
 .logo {
     font-family: norse-bold;
-    color: white;
+    color: var(--white-color, white);
 }
 
 
@@ -52,10 +54,11 @@ form {
 }
 
 .submit-btn {
-    color: white;
-    background-color: #596D48;
+    color: var(--white-color, white);
+    background-color: var(--green-color, green);
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: 15px;
 }
 
 
