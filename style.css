@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     --green-color: #596D48;
+    --green-hover:#87a56d;
     --white-color: #FFFFFF;
     --light-bg-color: #F9FAFB;
 }
