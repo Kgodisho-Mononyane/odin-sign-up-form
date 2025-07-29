@@ -47,4 +47,11 @@ form {
 .submit-container {
 }
 
+.submit-btn {
+    color: white;
+    background-color: #596D48;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 
