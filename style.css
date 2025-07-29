@@ -12,6 +12,7 @@
     padding: 0;
     --green-color: #596D48;
     --white-color: rgb(255, 255, 255);
+    --light-bg-color: #F9FAFB;
 }
 
 body {
@@ -45,12 +46,14 @@ body {
 }
 
 .text-container {
+    background-color: var(--light-bg-color);
 }
 
 form {
 }
 
 .submit-container {
+    background-color: var(--light-bg-color);
 }
 
 .submit-btn {
