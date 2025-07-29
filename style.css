@@ -25,6 +25,7 @@ body {
 #left-container {
     width: 33%;
     background-image: url(img/foliage.jpg);
+    background-size: cover;
 }
 
 #logo-container {
