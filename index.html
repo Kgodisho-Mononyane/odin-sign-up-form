@@ -18,7 +18,7 @@
             <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started </p>
             <p>You know you want to</p>
         </div>
-        <form action="https://httpbin.org/post" method="get" class="form">
+        <form action="https://httpbin.org/post" method="post" id="myform">
             <h2>Let's do this!</h2>
             <div class="form-element">
                 <label for="first_name">FIRST NAME</label>
@@ -46,7 +46,7 @@
             </div>
         </form>
         <div class="submit-container">
-            <button type="submit" class="submit-btn">Create an account</button>
+            <button type="submit" class="submit-btn" form="myform">Create an account</button>
             <p class="login-text">Already have an account? <a href="#" class="login-link">Log in</a></p>
         </div>
     </div>
