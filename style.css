@@ -52,6 +52,11 @@ body {
 form {
 }
 
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
+
 .submit-container {
     background-color: var(--light-bg-color);
 }
