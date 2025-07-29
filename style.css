@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     --green-color: #596D48;
-    --white-color: rgb(255, 255, 255);
+    --white-color: #FFFFFF;
     --light-bg-color: #F9FAFB;
 }
 
@@ -51,6 +51,11 @@ body {
 }
 
 form {
+    background-color: var(--white-color);
+}
+
+.form-element-container {
+    display: flex;
 }
 
 .form-element {
@@ -60,6 +65,10 @@ form {
 
 .submit-container {
     background-color: var(--light-bg-color);
+}
+
+input {
+    width: 50px;
 }
 
 .submit-btn {
