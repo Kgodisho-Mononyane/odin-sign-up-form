@@ -16,6 +16,11 @@
     background-image: url(img/foliage.jpg);
 }
 
+#logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo {
     font-family: norse-bold;
     color: white;
