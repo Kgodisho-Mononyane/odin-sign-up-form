@@ -8,6 +8,7 @@
     --white-color: #FFFFFF;
     --light-bg-color: #F9FAFB;
     --dark-bg-color: rgb(0, 0, 0);
+    --input-gray: #E5E7EB;
     font-family: sans-serif;
 }
 
@@ -60,8 +61,6 @@ img {
 
 
 /* RIGHT STYLING */
-#right-container {
-}
 
 .text-container {
     background-color: var(--light-bg-color);
@@ -94,6 +93,7 @@ form {
     font-family: norse-bold;
     font-size: 3em;
     color: var(--green-color);
+    margin-top: 10px;
 }
 
 .form-element-container {
@@ -115,7 +115,8 @@ form {
 }
 
 input {
-    width: 50px;
+    width: 100px;
+    border: 2px solid var(--input-gray);
 }
 
 /*LINKS AND BUTTONS*/
