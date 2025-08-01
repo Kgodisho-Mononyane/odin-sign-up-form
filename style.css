@@ -178,6 +178,6 @@ input:focus {
 }
 
 .copyright-tag {
-    margin-top: 60px;
+    margin-top: 40px;
     color: var(--green-hover);
 }
