@@ -61,6 +61,10 @@ img {
 
 
 /* RIGHT STYLING */
+#right-container {
+    width: 60vw;
+    height: 100vh;
+}
 
 .text-container {
     background-color: var(--light-bg-color);
