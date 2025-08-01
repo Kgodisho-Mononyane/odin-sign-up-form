@@ -85,6 +85,12 @@ form {
     align-items: center;
 }
 
+.form-heading {
+    font-family: norse-bold;
+    font-size: 3em;
+    color: var(--green-color);
+}
+
 .form-element-container {
     display: flex;
 }
@@ -119,6 +125,7 @@ input {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 15px;
+    margin-top: 50px;
 }
 .submit-btn:hover {
     background-color: var(--green-hover);
