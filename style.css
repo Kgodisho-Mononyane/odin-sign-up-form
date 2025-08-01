@@ -36,7 +36,9 @@ body {
 
 #logo-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     background-color: var(--dark-bg-color);
     opacity: 0.5;
     height: 13%;
