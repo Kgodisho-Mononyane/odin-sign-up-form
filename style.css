@@ -35,7 +35,13 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--dark-bg-color);
+    opacity: 0.5;
     /* make it slightly transparent */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .logo {
