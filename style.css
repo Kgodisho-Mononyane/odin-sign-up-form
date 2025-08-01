@@ -111,6 +111,7 @@ form {
 .form-element {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
 .submit-container {
@@ -121,6 +122,8 @@ form {
     align-items: center;
     flex-direction: center;
 }
+
+
 
 input {
     width: 300px;
