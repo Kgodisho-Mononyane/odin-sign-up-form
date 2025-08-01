@@ -126,6 +126,7 @@ input {
     width: 300px;
     height: 2em;
     border: 2px solid var(--input-gray);
+    border-radius: 5px;
 }
 
 input:focus {
