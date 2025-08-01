@@ -80,6 +80,9 @@ img {
 form {
     background-color: var(--white-color);
     height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-element-container {
