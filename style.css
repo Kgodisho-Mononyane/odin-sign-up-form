@@ -14,7 +14,7 @@
 body {
     display: flex;
     height: 100%;
-    width: 100%;
+    overflow: hidden;
 }
 
 @font-face {
@@ -27,7 +27,8 @@ body {
 
 /* LEFT STYLING */
 #left-container {
-    width: 40%;
+    width: 40vw;
+    height: 100vh;
     background-image: url(img/foliage.jpg);
     background-size: cover;
 }
