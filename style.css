@@ -39,8 +39,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: var(--dark-bg-color);
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 20%;
     margin-top: 16%;
 }
@@ -53,6 +52,7 @@ img {
 .logo {
     font-family: norse-bold;
     color: var(--white-color, white);
+    font-size: 5rem;
 }
 
 .credit {
