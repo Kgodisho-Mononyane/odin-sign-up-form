@@ -9,6 +9,7 @@
     --light-bg-color: #F9FAFB;
     --dark-bg-color: rgb(0, 0, 0);
     --input-gray: #E5E7EB;
+    --text-gray: rgb(112, 112, 112);
     font-family: sans-serif;
 }
 
@@ -112,6 +113,11 @@ form {
     display: flex;
     flex-direction: column;
     margin: 10px;
+}
+
+label {
+    font-size: 15px;
+    color: var(--text-gray);
 }
 
 .submit-container {
