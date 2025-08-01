@@ -36,7 +36,8 @@ body {
     flex-direction: column;
     background-color: var(--dark-bg-color);
     opacity: 0.5;
-    /* make it slightly transparent */
+    height: 13%;
+    margin-top: 40%;
 }
 
 img {
