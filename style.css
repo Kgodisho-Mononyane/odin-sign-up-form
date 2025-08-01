@@ -74,6 +74,7 @@ img {
     color: var(--green-color);
     font-family: norse-bold;
     font-size: 4em;
+    margin-top: 35px;
 }
 
 .subheading {
@@ -87,6 +88,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* add a box shadow */
 }
 
 .form-heading {
@@ -117,6 +119,10 @@ form {
 input {
     width: 100px;
     border: 2px solid var(--input-gray);
+}
+
+input:focus {
+    outline: none;
 }
 
 /*LINKS AND BUTTONS*/
@@ -153,6 +159,7 @@ input {
 .login-link:hover,
 .credit-link:hover {
     color: var(--green-hover);
+    cursor: pointer;
 }
 .login-link:focus,
 .credit-link:focus {
