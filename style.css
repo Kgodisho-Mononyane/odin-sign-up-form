@@ -25,7 +25,7 @@ body {
 
 /* LEFT STYLING */
 #left-container {
-    width: 33%;
+    width: 40%;
     background-image: url(img/foliage.jpg);
     background-size: cover;
 }
@@ -84,7 +84,6 @@ input {
 /*LINKS AND BUTTONS*/
 .credit-link {
     color: white;
-
 }
 
 .submit-btn {
