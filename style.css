@@ -141,10 +141,11 @@ input {
 
 input:focus {
     outline: none;
+    border: 2px solid var(--green-focus);
 }
 
 input:invalid {
-    border: red;
+    border: 2px solid red;
 }
 
 /*LINKS AND BUTTONS*/
