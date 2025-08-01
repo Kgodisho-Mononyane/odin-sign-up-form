@@ -70,6 +70,8 @@ img {
 
 .header {
     color: var(--green-color);
+    font-family: norse-bold;
+    font-size: 4em;
 }
 
 form {
