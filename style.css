@@ -121,7 +121,7 @@ input {
 .submit-btn {
     color: var(--white-color, white);
     background-color: var(--green-color, green);
-    font-size: 20px;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
     padding: 15px;
@@ -137,7 +137,7 @@ input {
 }
 
 .login-text {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .login-link {
@@ -151,4 +151,9 @@ input {
 .login-link:focus,
 .credit-link:focus {
     color: var(--green-focus);
+}
+
+.copyright-tag {
+    margin-top: 60px;
+    color: var(--green-hover);
 }
