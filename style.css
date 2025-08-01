@@ -68,6 +68,10 @@ img {
     height: 33%;
 }
 
+.header {
+    color: var(--green-color);
+}
+
 form {
     background-color: var(--white-color);
     height: 33%;
