@@ -7,6 +7,7 @@
     --green-focus: #aed38e;;
     --white-color: #FFFFFF;
     --light-bg-color: #F9FAFB;
+    --dark-bg-color: rgb(0, 0, 0);
     font-family: sans-serif;
 }
 
@@ -33,8 +34,8 @@ body {
 #logo-container {
     display: flex;
     flex-direction: column;
+    background-color: var(--dark-bg-color);
     /* make it slightly transparent */
-    /* give it a black colour */
 }
 
 .logo {
