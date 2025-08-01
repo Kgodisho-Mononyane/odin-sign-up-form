@@ -6,7 +6,7 @@
     --green-hover:#87a56d;
     --green-focus: #aed38e;;
     --white-color: #FFFFFF;
-    --light-bg-color: #F9FAFB;
+    --light-bg-color: #f9fafbee;
     --dark-bg-color: rgb(0, 0, 0);
     --input-gray: #E5E7EB;
     --text-gray: rgb(112, 112, 112);
@@ -95,7 +95,6 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* add a box shadow */
 }
 
 .form-heading {
